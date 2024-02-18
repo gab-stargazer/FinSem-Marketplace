@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268214054648",
+    "project_id": "finalsem-marketplace-dev",
+    "storage_bucket": "finalsem-marketplace-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268214054648:android:bde3b333a89bff4418950d",
+        "android_client_info": {
+          "package_name": "com.lelestacia.finsem_market.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQeEjHv6y7w2yfVKNerWzZ8aUoE88jbfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Final Semester Marketplace</string>
+
+    <string name="error_name_is_empty">Name cannot be empty</string>
+    <string name="error_email_is_empty">Email cannot be empty</string>
+    <string name="error_email_is_invalid">Email is invalid</string>
+    <string name="error_password_is_empty">Password cannot be empty</string>
+    <string name="error_password_less_than_required">Password cannot be less than 8 characters</string>
+    <string name="error_invalid_profile_url">Your profile URL seems to be in invalid format</string>
+
+    <string name="info_account_created">Welcome %1$s</string>
+    <string name="info_login_success">Welcome back, %1$s</string>
+    <string name="info_profile_updated">Profile successfully updated</string>
+
+    <string name="menu_explore">Explore</string>
+    <string name="menu_profile">Profile</string>
+</resources>
