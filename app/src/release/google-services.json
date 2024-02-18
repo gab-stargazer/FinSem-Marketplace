@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "368492290504",
+    "project_id": "finsem-marketplace",
+    "storage_bucket": "finsem-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368492290504:android:87a05d20c5ee49d00e60fd",
+        "android_client_info": {
+          "package_name": "com.lelestacia.finsem_market.prod"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRsf-PCho3sjDbFtsya7JlE3LqkwxKZ2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,9 @@
 package com.lelestacia.finsem_market.data.repository
 
+import android.content.ContentValues.TAG
+import android.util.Log
 import com.google.firebase.firestore.EventListener
+import com.google.firebase.firestore.Filter
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QuerySnapshot
 import com.lelestacia.finsem_market.data.model.UserDto
@@ -15,17 +18,18 @@ class ServiceRepositoryImpl(
 
     override fun getServices(): Flow<List<UserDto>> = channelFlow {
         val snapshotListener = EventListener<QuerySnapshot> { value, error ->
+            error?.printStackTrace()
             if (error != null) {
                 close(error)
             } else {
                 value?.let { snapshot ->
-                    val services = snapshot.toObjects(UserDto::class.java)
-                    val filtered = services.filter { it.role == 1 }
-                    trySend(filtered)
+                    Log.d(TAG, "getServices: ${snapshot.documents}")
+                    trySend(snapshot.toObjects(UserDto::class.java))
                 }
             }
         }
         db.collection("user")
+            .where(Filter.equalTo("role", 1))
             .addSnapshotListener(snapshotListener)
         awaitClose()
     }

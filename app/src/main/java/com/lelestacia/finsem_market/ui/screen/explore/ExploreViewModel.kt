@@ -31,8 +31,8 @@ class ExploreViewModel(
             .catch { t ->
                 _eventMessage.send(t.message.orEmpty())
             }
-            .collectLatest {
-                _services.update { it }
+            .collectLatest { data ->
+                _services.update { data }
             }
     }
 

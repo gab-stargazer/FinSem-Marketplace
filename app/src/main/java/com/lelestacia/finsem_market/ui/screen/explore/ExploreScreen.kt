@@ -1,5 +1,6 @@
 package com.lelestacia.finsem_market.ui.screen.explore
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
@@ -17,8 +18,9 @@ fun ExploreScreen(
 ) {
     LazyColumn(
         contentPadding = PaddingValues(
-            vertical = 8.dp
+            vertical = 16.dp
         ),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
         modifier = modifier.fillMaxSize()
     ) {
         items(items = services) { service ->

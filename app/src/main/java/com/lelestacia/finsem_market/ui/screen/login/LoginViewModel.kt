@@ -120,6 +120,7 @@ class LoginViewModel(
                             popUpTo(Screen.Auth.Login.route) {
                                 inclusive = true
                             }
+                            launchSingleTop = true
                         },
                         type = NavType.NAVIGATE
                     )

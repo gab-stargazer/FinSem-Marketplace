@@ -1,9 +1,11 @@
 package com.lelestacia.finsem_market.data.model
 
+import androidx.annotation.Keep
 import com.google.firebase.firestore.PropertyName
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
+@Keep
 @JsonClass(generateAdapter = true)
 data class UserDto(
 

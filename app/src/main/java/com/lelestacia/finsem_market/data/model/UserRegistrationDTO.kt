@@ -1,7 +1,9 @@
 package com.lelestacia.finsem_market.data.model
 
+import androidx.annotation.Keep
 import com.google.firebase.firestore.PropertyName
 
+@Keep
 data class UserRegistrationDTO(
 
     @PropertyName("name")

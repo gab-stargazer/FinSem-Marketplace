@@ -138,6 +138,7 @@ class RegisterViewModel(
                             popUpTo(Screen.Auth.SignUp.route) {
                                 inclusive = true
                             }
+                            launchSingleTop = true
                         },
                         type = NavType.NAVIGATE
                     )
