@@ -19,3 +19,13 @@ You can see all the seller available on platform via explore section and edit yo
     <td><img src="img/profile.png" alt="Image 2"></td>
   </tr>
 </table>
+
+# Firebase Structure
+{
+  "name": "John Doe",
+  "role": 1,
+  "email": "john@example.com",
+  "url_github": "https://github.com/johndoe",
+  "url_linkedin": "https://www.linkedin.com/in/johndoe",
+  "whatsapp_number": "+1234567890"
+}
