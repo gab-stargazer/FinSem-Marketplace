@@ -21,6 +21,7 @@ You can see all the seller available on platform via explore section and edit yo
 </table>
 
 # Firebase Structure
+```json
 {
   "name": "John Doe",
   "role": 1,
@@ -29,3 +30,4 @@ You can see all the seller available on platform via explore section and edit yo
   "url_linkedin": "https://www.linkedin.com/in/johndoe",
   "whatsapp_number": "+1234567890"
 }
+```
